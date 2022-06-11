@@ -3,15 +3,15 @@ pipeline {
   stages {
     stage('pre script') {
       parallel {
-        stage('pre script') {
+        stage('step1) {
           steps {
             echo 'Hello world'
           }
         }
 
-        stage('') {
+        stage('parallel to step 1') {
           steps {
-            sh 'echo "ni hao"'
+            sh 'echo "Parallel Hello"'
           }
         }
 
