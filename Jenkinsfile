@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('pre script') {
       parallel {
-        stage('step1) {
+        stage('step 1') {
           steps {
             sh 'echo "Hello world"'
           }
