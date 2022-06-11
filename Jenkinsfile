@@ -20,7 +20,7 @@ pipeline {
 
     stage('post script') {
       steps {
-        sh 'bye bye world'
+        sh 'echo "bye bye world"'
       }
     }
 
